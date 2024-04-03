@@ -1,0 +1,7 @@
+version: "2.1"
+services:
+    healthcheck:
+        container_name: healthcheck
+        ports:
+            - 55555:80
+        image: local/healthcheck:latest
